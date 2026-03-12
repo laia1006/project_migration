@@ -2,3 +2,5 @@ data <- hhhhh
 
 df <- read.csv("C:/Users/DEEPGAMING/Downloads/table_s1(Sheet1).csv")
 head(df)
+library(tidyr)
+

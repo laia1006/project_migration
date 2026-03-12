@@ -1,0 +1,177 @@
+﻿Table S1. Detailed library-level information for samples passing through screening process.;;;;;;;;;;;;;;;;;;;;;;;;;
+Library ID;Lab Indiv. ID;Skeletal codes;UDG;Skeletal element;Date (BCE/CE);Culture;Location;Country;Extraction protocol (see key below);Library preparation (see key below);Equivalent mg bone powder used for library preparation ;Shotgun raw sequences;Shotgun fraction raw sequences mapping to hg19;mtDNA sequences in alignment;mtDNA sequences aligning to target;Aligned mtDNA sequences remaining after deduping;mtDNA coverage;mtDNA median read length;mtDNA fraction damaged in last base;mtDNA haplogroup;mtDNA match fraction;mtDNA match fraction   95% CI;Perform 1240k capture?;1240k captured in pool? (number of libraries in pool);Used in analyses?
+S0626.E1.L1;I0626;VN33, 0.7.MB.H1.M10;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;26,3;783749;0,0042;942188;95311;3754;7,96;35;0,303;R;..;..;Yes;No;Yes
+S7241.E1.L1;I0626;VN33, 0.7.MB.H1.M10;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,3;397903;0,0112;1000352;6605;2403;4,8;33;0,324;B5;0,949;[0.899,0.977];Yes;No;Yes
+S0626.E1.L2;I0626;VN33, 0.7.MB.H1.M10;minus;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;13,2;3316700;0,0014;662593;1943;1288;2,87;37;0,614;H2a2a;0,801;[0.554,0.930];Yes;Yes (4);No^
+S0626.E1.L3;I0626;VN33, 0.7.MB.H1.M10;minus;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;13,2;3316700;0,0011;584222;1648;1088;2,47;38;0,66;H2a2a1;0,502;[0.349,0.659];Yes;Yes (4);No^
+S0626.E1.L4;I0626;VN33, 0.7.MB.H1.M10;minus;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;13,2;3316700;0,0013;723124;1865;1200;2,71;38;0,658;H40a;0,684;[0.441,0.827];Yes;Yes (4);No^
+S0626.E1.L5;I0626;VN33, 0.7.MB.H1.M10;minus;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;13,2;3316700;0,0013;615806;2016;1041;2,37;38;0,667;H2a2a;0,664;[0.508,0.785];Yes;Yes (4);No^
+S2728.E1.L1;I0626;VN33, 0.7.MB.H1.M10;minus;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;18,0;337118;0,0604;1215302;3825;859;1,68;33;0,601;..;..;..;Yes;No;No
+S0626.E2.L1;I0626;VN33, 0.7.MB.H1.M10;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;*;3;7,0;216729;0,0018;415311;315;91;0,199;36;0,379;..;..;..;No;;No
+S0626.E2.L2;I0626;VN33, 0.7.MB.H1.M10;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;*;3;21,0;380583;0,0026;744947;603;50;0,108;35;0,317;..;..;..;No;;No
+S0626.E3.L1;I0626;VN33, 0.7.MB.H1.M10;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;*;3;5,0;98105;0,0015;399406;601;125;0,266;35;0,266;..;..;..;No;;No
+S0626.E3.L2;I0626;VN33, 0.7.MB.H1.M10;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;*;3;15,0;466547;0,0029;397532;549;268;0,563;35;0,248;..;..;..;No;;No
+S0627.E1.L2;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];2;15,6;32637;0,0072;159555;4353;2487;5,57;37;0,339;M7b1a1;0,999;[0.973,1.000];Yes;No;Yes
+S0627.E1.L3;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];2;15,6;29853;0,0082;269763;5445;3231;7,14;37;0,339;M7b1a;0,998;[0.975,1.000];Yes;No;Yes
+S0627.E1.L4;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];2;15,6;25481;0,0112;100346;1846;1507;3,32;36;0,337;M7b1a;0,994;[0.873,0.999];Yes;No;Yes
+S0627.E3.L2;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;*;3;17,3;495174;0,0036;856919;2992;1019;2,22;36;0,293;M7b1;0,905;[0.832,0.949];Yes;Yes (2);Yes
+S0627.E4.L2;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;*;3;24,0;239018;0,0029;598363;1948;931;2,06;37;0,339;M7b1a1;0,997;[0.948,1.000];Yes;Yes (2);Yes
+S2729.E1.L2;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;6,3;1303706;0,009;1715186;30952;6284;12,8;34;0,344;M7b1a1+(16192);0,962;[0.949,0.972];Yes;Yes (5);Yes
+S2729.E1.L3;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;6,3;1310018;0,0088;1526459;35115;5344;10,9;34;0,354;M7b1a;0,975;[0.967,0.982];Yes;Yes (5);Yes
+S2729.E1.L5;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;6,3;1143849;0,0083;1302566;33499;4879;10;34;0,349;M7b1;0,919;[0.896,0.935];Yes;Yes (5);Yes
+S2729.E1.L6;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;6,3;924524;0,0115;1102511;27774;4815;9,74;33;0,331;M7b1a1;0,811;[0.782,0.837];Yes;Yes (5);Yes
+S7242.E1.L1;I0627;VN34_SCC;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;7,7;411833;0,0081;1139891;2010;1105;2,25;34;0,32;R0;0,996;[0.909,0.999];Yes;No;Yes
+S0627.E1.L1;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;23,3;620413;0,0044;929117;241088;6529;14,7;37;0,341;M7b1a1+(16192);0,85;[0.833,0.867];Yes;No;No
+S0627.E2.L1;I0627;VN34, 0.7.MB.H1.M6;minus;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;25,7;310813;0,0048;1055116;9986;4033;9,19;38;0,605;M;0,838;[0.794,0.874];Yes;Yes (2);No^
+S0627.E2.L3;I0627;VN34, 0.7.MB.H1.M6;minus;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;25,7;265174;0,0046;593025;2362;1860;4,36;38;0,632;H2a;0,981;[0.857,0.998];Yes;Yes (2);No
+S2729.E1.L1;I0627;VN34, 0.7.MB.H1.M6;minus;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];2;19,0;318216;0,0432;1641227;23422;7089;15,2;36;0,625;M7b1;..;..;Yes;No;No
+S2729.E1.L4;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;6,3;1276461;0,0099;1953092;39852;6501;13,2;34;0,363;N;0,947;[0.936,0.957];Yes;Yes (5);No
+S0627.E2.L2;I0627;VN34, 0.7.MB.H1.M6;minus;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;25,7;..;..;..;..;..;..;..;..;..;..;..;No;;No
+S0627.E3.L1;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;*;3;5,8;154221;0,0023;363819;729;333;0,733;37;0,309;..;..;..;No;;No
+S0627.E4.L1;I0627;VN34, 0.7.MB.H1.M6;partial;petrous;2131-1896 calBCE (3630±35 BP, Poz-81116, date suspect because C:N ratio of 3.68);Vietnam_Neolithic;Man Bac;Vietnam;*;3;8,0;82350;0,0023;270962;388;208;0,472;38;0,343;..;..;..;No;;No
+S10973.Y1.E1.L1;I10973;VN31, 05.MB.M2;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;*;3;7,3;..;..;..;..;..;..;..;0,252;..;..;..;Yes;No;Yes
+S1135.E1.L1;I1135;VN37, 0.7.MB.H1.M09;partial;petrous;1876-1688 calBCE (3445±20, PSUAMS-2409);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];2;27,0;82506;0,0064;1687279;2920;999;2,04;34;0,343;H2a;0,968;[0.903,0.988];Yes;No;Yes
+S1135.E1.L3;I1135;VN37, 0.7.MB.H1.M09;partial;petrous;1876-1688 calBCE (3445±20, PSUAMS-2409);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;9,0;584422;0,0136;950496;2843;1245;2,45;32;0,408;R0;0,871;[0.780,0.928];Yes;Yes (2);Yes
+S1135.E1.L4;I1135;VN37, 0.7.MB.H1.M09;partial;petrous;1876-1688 calBCE (3445±20, PSUAMS-2409);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;27,0;498014;0,0147;1189322;8722;2939;5,71;31;0,349;R;0,803;[0.744,0.849];Yes;No;Yes
+S7243.E1.L1;I1135;VN37, 0.7.MB.H1.M09;partial;petrous;1876-1688 calBCE (3445±20, PSUAMS-2409);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,1;423095;0,0093;966503;3499;868;1,75;33;0,3;..;..;..;Yes;No;Yes
+S1135.E1.L2;I1135;VN37, 0.7.MB.H1.M09;partial;petrous;1876-1688 calBCE (3445±20, PSUAMS-2409);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;2,7;544298;0,0117;1125104;3235;438;0,874;31;0,302;..;..;..;Yes;Yes (2);No
+S1135.E2.L1;I1135;VN37, 0.7.MB.H1.M09;partial;petrous;1876-1688 calBCE (3445±20, PSUAMS-2409);Vietnam_Neolithic;Man Bac;Vietnam;*;3;6,5;177886;0,0014;485732;300;92;0,207;37;0,253;..;..;..;No;;No
+S1135.E2.L2;I1135;VN37, 0.7.MB.H1.M09;partial;petrous;1876-1688 calBCE (3445±20, PSUAMS-2409);Vietnam_Neolithic;Man Bac;Vietnam;*;3;19,5;405388;0,0022;904015;691;236;0,537;36;0,278;..;..;..;No;;No
+S1135.E3.L1;I1135;VN37, 0.7.MB.H1.M09;partial;petrous;1876-1688 calBCE (3445±20, PSUAMS-2409);Vietnam_Neolithic;Man Bac;Vietnam;*;3;6,3;119921;0,0009;391845;239;69;0,153;36;0,083;..;..;..;No;;No
+S1135.E3.L2;I1135;VN37, 0.7.MB.H1.M09;partial;petrous;1876-1688 calBCE (3445±20, PSUAMS-2409);Vietnam_Neolithic;Man Bac;Vietnam;*;3;18,8;432693;0,0021;801140;532;180;0,388;35;0,272;..;..;..;No;;No
+S1137.E1.L1;I1137;VN39, VN46, 0.7.MB.H2.M16;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];2;26,3;74904;0,009;494048;975;687;1,48;35;0,289;..;..;..;Yes;No;Yes
+S1137.E2.L2;I1137;VN39, VN46, 0.7.MB.H2.M16;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;*;3;24,8;442209;0,0028;842300;854;248;0,528;35;0,362;..;..;..;Yes;No;Yes
+S2730.E1.L2;I1137;VN39;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,4;1265990;0,0109;1497602;20668;4919;9,83;33;0,346;M7b1a1;0,912;[0.889,0.932];Yes;Yes (4);Yes
+S2730.E1.L3;I1137;VN39;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,4;1229293;0,01;1173847;18851;4574;9,18;33;0,339;M7b1a1;0,91;[0.881,0.931];Yes;Yes (4);Yes
+S2730.E1.L4;I1137;VN39;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,4;1250267;0,0087;1202614;15193;3956;7,99;34;0,332;M7b1a1;0,967;[0.946,0.981];Yes;Yes (4);Yes
+S2730.E1.L5;I1137;VN39;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,4;1288439;0,0127;1694408;23112;5834;11,5;33;0,33;M7b1a1+(16192);0,981;[0.968,0.989];Yes;Yes (4);Yes
+S2730.E2.L1;I1137;VN39;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;*;3;5,8;88584;0,0023;525932;1103;387;0,831;36;0,379;..;..;..;Yes;No;Yes
+S2730.E2.L2;I1137;VN39;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;*;3;17,3;460132;0,0038;1154990;2046;707;1,48;35;0,35;..;..;..;Yes;Yes (2);Yes
+S2730.E3.L2;I1137;VN39;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;*;3;22,5;469634;0,0044;865453;1598;928;1,97;35;0,342;..;..;..;Yes;Yes (2);Yes
+S7244.E1.L1;I1137;VN39;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,4;396394;0,014;1030183;7855;3131;6,37;34;0,343;M7b'c;0,916;[0.856,0.956];Yes;No;Yes
+S7248.E1.L1;I1137;VN46;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,8;300259;0,0076;642430;2681;1104;2,32;35;0,395;R0;0,962;[0.855,0.989];Yes;No;Yes
+S1137.E1.L2;I1137;VN39, VN46, 0.7.MB.H2.M16;minus;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;13,2;3255452;0,0032;588772;1772;1150;2,49;36;0,674;N;0,913;[0.468,0.990];Yes;Yes (4);No^
+S1137.E1.L3;I1137;VN39, VN46, 0.7.MB.H2.M16;minus;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;13,2;3255452;0,0037;650141;2078;1317;2,86;36;0,711;H2a2a;0,995;[0.892,0.999];Yes;Yes (4);No^
+S1137.E1.L4;I1137;VN39, VN46, 0.7.MB.H2.M16;minus;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;13,2;3255452;0,0041;630528;1991;1299;2,83;36;0,703;H2a2a;0,978;[0.879,0.996];Yes;Yes (4);No^
+S1137.E1.L5;I1137;VN39, VN46, 0.7.MB.H2.M16;minus;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;13,2;3255452;0,0031;531957;1673;1054;2,3;36;0,733;H2a;0,968;[0.803,0.993];Yes;Yes (4);No^
+S2730.E1.L1;I1137;VN39;minus;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;25,3;215675;0,0448;1411610;10604;4309;8,87;34;0,65;M7b1a1+(16192);..;..;Yes;No;No^
+S1137.E2.L1;I1137;VN39, VN46, 0.7.MB.H2.M16;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;*;3;8,3;157973;0,0019;495493;488;155;0,324;36;0,394;..;..;..;No;;No
+S1137.E3.L1;I1137;VN39, VN46, 0.7.MB.H2.M16;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;*;3;6,0;159163;0,0016;304200;179;91;0,205;36;0,279;..;..;..;No;;No
+S1137.E3.L2;I1137;VN39, VN46, 0.7.MB.H2.M16;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;*;3;18,0;452533;0,0022;788536;680;263;0,582;37;0,308;..;..;..;No;;No
+S2730.E3.L1;I1137;VN39;partial;petrous;1882-1745 calBCE (3480±20, PSUAMS-2410);Vietnam_Neolithic;Man Bac;Vietnam;*;3;7,5;93627;0,0026;622797;825;342;0,738;36;0,373;..;..;..;No;;No
+S1680.E1.L1;I1680;AB40C;partial;petrous;60-220 calCE (1885±30 BP, Poz-81120, date suspect because C:N ratio of 3.75);Cambodia_IA;Vat Komnou, Angkor Borei;Cambodia;[42, 43];2;24,3;31107;0,0048;438619;804;447;1,17;41;0,347;B5a1a;0,981;..;Yes;No;Yes
+S1680.E1.L2;I1680;AB40C;partial;petrous;60-220 calCE (1885±30 BP, Poz-81120, date suspect because C:N ratio of 3.75);Cambodia_IA;Vat Komnou, Angkor Borei;Cambodia;[42, 43];3;8,1;427649;0,0078;1048306;3571;269;0,595;36;0,219;..;..;..;Yes;Yes (2);Yes
+S1680.E1.L4;I1680;AB40C;partial;petrous;60-220 calCE (1885±30 BP, Poz-81120, date suspect because C:N ratio of 3.75);Cambodia_IA;Vat Komnou, Angkor Borei;Cambodia;[42, 43];3;24,3;501922;0,0049;1037577;1883;823;2,01;38;0,278;R0;0,996;[0.902,0.999];Yes;No;Yes
+S1680.E2.L1;I1680;AB40C;partial;petrous;60-220 calCE (1885±30 BP, Poz-81120, date suspect because C:N ratio of 3.75);Cambodia_IA;Vat Komnou, Angkor Borei;Cambodia;[42, 43];3;9,1;352875;0,0443;515579;1440;1002;1,81;30;0,369;..;..;..;Yes;Yes (4);Yes
+S1680.E2.L2;I1680;AB40C;partial;petrous;60-220 calCE (1885±30 BP, Poz-81120, date suspect because C:N ratio of 3.75);Cambodia_IA;Vat Komnou, Angkor Borei;Cambodia;[42, 43];3;9,1;297156;0,0451;714435;1836;1061;1,91;30;0,382;..;..;..;Yes;Yes (4);Yes
+S1680.E2.L3;I1680;AB40C;partial;petrous;60-220 calCE (1885±30 BP, Poz-81120, date suspect because C:N ratio of 3.75);Cambodia_IA;Vat Komnou, Angkor Borei;Cambodia;[42, 43];3;9,1;351599;0,0576;479503;1085;780;1,4;30;0,348;..;..;..;Yes;Yes (4);Yes
+S1680.E2.L4;I1680;AB40C;partial;petrous;60-220 calCE (1885±30 BP, Poz-81120, date suspect because C:N ratio of 3.75);Cambodia_IA;Vat Komnou, Angkor Borei;Cambodia;[42, 43];3;2,7;350443;0,0443;569464;1228;658;1,16;29;0,423;..;..;..;Yes;Yes (4);Yes
+S1680.E1.L3;I1680;AB40C;partial;petrous;60-220 calCE (1885±30 BP, Poz-81120, date suspect because C:N ratio of 3.75);Cambodia_IA;Vat Komnou, Angkor Borei;Cambodia;[42, 43];3;8,1;357099;0,0046;955116;3159;494;1,18;38;0,299;H27;0,644;..;Yes;Yes (2);No
+S1859.E1.L1;I1859;VN22, 0.7.MB.H2.M15;partial;petrous;1887-1745 calBCE (3490±25 BP, PSUAMS-1920);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];2;24,7;33733;0,0009;600808;1958;915;2,15;39;0,306;M13b1;0,883;[0.753,0.949];Yes;No;Yes
+S1859.E2.L1;I1859;VN22, 0.7.MB.H2.M15;partial;petrous;1887-1745 calBCE (3490±25 BP, PSUAMS-1920);Vietnam_Neolithic;Man Bac;Vietnam;*;3;6,3;127256;0,0018;570173;854;322;0,706;36;0,232;..;..;..;Yes;Yes (2);Yes
+S1859.E2.L2;I1859;VN22, 0.7.MB.H2.M15;partial;petrous;1887-1745 calBCE (3490±25 BP, PSUAMS-1920);Vietnam_Neolithic;Man Bac;Vietnam;*;3;18,8;365605;0,0028;706455;1099;500;1,11;38;0,245;..;..;..;Yes;Yes (2);Yes
+S1859.E3.L1;I1859;VN22, 0.7.MB.H2.M15;partial;petrous;1887-1745 calBCE (3490±25 BP, PSUAMS-1920);Vietnam_Neolithic;Man Bac;Vietnam;*;3;6,8;154697;0,0018;563799;720;256;0,559;36;0,21;..;..;..;Yes;Yes (2);Yes
+S1859.E3.L2;I1859;VN22, 0.7.MB.H2.M15;partial;petrous;1887-1745 calBCE (3490±25 BP, PSUAMS-1920);Vietnam_Neolithic;Man Bac;Vietnam;*;3;20,3;366029;0,0033;921676;1192;534;1,17;37;0,284;..;..;..;Yes;Yes (2);Yes
+S7239.E1.L1;I1859;VN22, 0.7.MB.H2.M15;partial;petrous;1887-1745 calBCE (3490±25 BP, PSUAMS-1920);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,3;375512;0,0094;1054954;8996;1297;2,71;35;0,398;M13;0,795;[0.735,0.843];Yes;No;Yes
+S1859.E1.L2;I1859;VN22, 0.7.MB.H2.M15;minus;petrous;1887-1745 calBCE (3490±25 BP, PSUAMS-1920);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;12,3;3102963;0,0006;682613;1404;788;1,94;41;0,593;..;..;..;Yes;Yes (4);No^
+S1859.E1.L3;I1859;VN22, 0.7.MB.H2.M15;minus;petrous;1887-1745 calBCE (3490±25 BP, PSUAMS-1920);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;12,3;3102963;0,0004;533500;1152;714;1,75;40;0,606;..;..;..;Yes;Yes (4);No^
+S1859.E1.L4;I1859;VN22, 0.7.MB.H2.M15;minus;petrous;1887-1745 calBCE (3490±25 BP, PSUAMS-1920);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;12,3;3102963;0,0004;549332;1153;708;1,74;41;0,608;..;..;..;Yes;Yes (4);No
+S1859.E1.L5;I1859;VN22, 0.7.MB.H2.M15;minus;petrous;1887-1745 calBCE (3490±25 BP, PSUAMS-1920);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;12,3;3102963;0,0006;790392;1619;864;2,11;41;0,604;M13b;0,812;[0.689,0.898];Yes;Yes (4);No^
+S2497.E1.L4;I2497;VN41, 78.NN.M4.KB;partial;..;100 BCE - 100 CE;Vietnam_BA;Nui Nap;Vietnam;[42, 43];3;8,9;971625;0,0197;1529264;75150;19089;41;35;0,302;C7a2;0,991;[0.984,0.995];Yes;Yes (2);Yes
+S2497.E1.L5;I2497;VN41, 78.NN.M4.KB;partial;..;100 BCE - 100 CE;Vietnam_BA;Nui Nap;Vietnam;[42, 43];3;8,9;1029284;0,0192;1481673;74875;21825;48,2;36;0,303;L3;0,943;[0.932,0.953];Yes;Yes (2);Yes
+S2497.E2.L1;I2497;VN41, 78.NN.M4.KB;partial;..;100 BCE - 100 CE;Vietnam_BA;Nui Nap;Vietnam;*;3;9,3;256865;0,0081;700155;7887;1807;4,03;37;0,277;C7a2;0,908;[0.863,0.936];Yes;Yes (2);Yes
+S2497.E3.L1;I2497;VN41, 78.NN.M4.KB;partial;..;100 BCE - 100 CE;Vietnam_BA;Nui Nap;Vietnam;*;3;5,8;119124;0,0068;380022;4374;2056;4,73;38;0,294;C7a2;0,969;[0.928,0.987];Yes;Yes (2);Yes
+S7246.E1.L1;I2497;VN41a;partial;petrous;100 BCE - 100 CE;Vietnam_BA;Nui Nap;Vietnam;[42, 43];3;8,3;340768;0,0524;939399;39344;19515;43,5;37;0,279;C7a2;0,997;[0.990,0.999];Yes;No;Yes
+S2497.E2.L2;I2497;VN41;partial;..;100 BCE - 100 CE;Vietnam_BA;Nui Nap;Vietnam;*;3;27,8;367601;0,0096;767899;7430;3643;8,45;38;0,31;C7a2;0,998;[0.970,1.000];Yes;Yes (2);No
+S2497.E3.L2;I2497;VN41;partial;..;100 BCE - 100 CE;Vietnam_BA;Nui Nap;Vietnam;*;3;17,3;384267;0,0096;763264;8639;3258;7,58;39;0,283;..;0,959;[0.923,0.981];Yes;Yes (2);No
+S2497.E1.L1;I2497;VN41;minus;..;100 BCE - 100 CE;Vietnam_BA;Nui Nap;Vietnam;[42, 43];1;26,7;234831;0,036;1587996;49895;13070;31,2;40;0,699;C7a2;0,816;[0.765,0.861];Yes;No;No^
+S2497.E1.L2;I2497;VN41;minus;..;100 BCE - 100 CE;Vietnam_BA;Nui Nap;Vietnam;[42, 43];1;26,7;3969851;0,0067;1439755;45826;26140;62;39;0,585;N;0,972;[0.953,0.984];Yes;No;No^
+S2497.E1.L3;I2497;VN41;minus;..;100 BCE - 100 CE;Vietnam_BA;Nui Nap;Vietnam;[42, 43];1;26,7;3969851;0,0057;1487481;44428;24595;58,8;40;0,573;C5b;0,943;[0.923,0.961];Yes;No;No^
+S2731.E1.L3;I2731;VN40, 0.7.MB.H2.M14;partial;petrous;1869-1665 calBCE (3430±20 BP, PSUAMS-2370);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;9,0;1232658;0,0127;1464208;41233;6583;13;33;0,284;M74b;0,968;[0.956,0.977];Yes;Yes (3);Yes
+S2731.E1.L4;I2731;VN40, 0.7.MB.H2.M14;partial;petrous;1869-1665 calBCE (3430±20 BP, PSUAMS-2370);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;9,0;1206824;0,0136;1538650;45522;6133;12,2;33;0,279;M74b;0,896;[0.878,0.910];Yes;Yes (3);Yes
+S2731.E1.L5;I2731;VN40, 0.7.MB.H2.M14;partial;petrous;1869-1665 calBCE (3430±20 BP, PSUAMS-2370);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;9,0;1078633;0,0105;1425825;37846;5103;10,1;33;0,266;M74;0,884;[0.862,0.901];Yes;Yes (3);Yes
+S2731.E2.L2;I2731;VN40, 0.7.MB.H2.M14;partial;petrous;1869-1665 calBCE (3430±20 BP, PSUAMS-2370);Vietnam_Neolithic;Man Bac;Vietnam;*;3;14,3;459536;0,0044;1061326;3454;1023;2,16;35;0,25;M74b;0,964;[0.911,0.985];Yes;Yes (2);Yes
+S2731.E3.L2;I2731;VN40, 0.7.MB.H2.M14;partial;petrous;1869-1665 calBCE (3430±20 BP, PSUAMS-2370);Vietnam_Neolithic;Man Bac;Vietnam;*;3;19,5;409070;0,0041;828446;3236;836;1,8;35;0,25;..;..;..;Yes;Yes (2);Yes
+S7245.E1.L1;I2731;VN40, 0.7.MB.H2.M14;partial;petrous;1869-1665 calBCE (3430±20 BP, PSUAMS-2370);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,2;280428;0,0126;671235;8306;2834;5,81;34;0,255;M74b;0,949;[0.910,0.979];Yes;No;Yes
+S2731.E1.L1;I2731;VN40, 0.7.MB.H2.M14;minus;petrous;1869-1665 calBCE (3430±20 BP, PSUAMS-2370);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;27,0;425088;0,0372;254971;7221;4070;8,49;35;0,585;M74;..;..;Yes;No;No^
+S2731.E1.L2;I2731;VN40, 0.7.MB.H2.M14;partial;petrous;1869-1665 calBCE (3430±20 BP, PSUAMS-2370);Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;9,0;1034108;0,0137;965652;36515;175;0,312;30;0,023;..;..;..;No;;No
+S2731.E2.L1;I2731;VN40, 0.7.MB.H2.M14;partial;petrous;1869-1665 calBCE (3430±20 BP, PSUAMS-2370);Vietnam_Neolithic;Man Bac;Vietnam;*;3;4,8;111010;0,002;528637;1308;338;0,736;36;0,307;..;..;..;No;;No
+S2731.E3.L1;I2731;VN40, 0.7.MB.H2.M14;partial;petrous;1869-1665 calBCE (3430±20 BP, PSUAMS-2370);Vietnam_Neolithic;Man Bac;Vietnam;*;3;6,5;154765;0,0024;485503;1630;310;0,698;36;0,268;..;..;..;No;;No
+S10972.Y1.E1.L1;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;*;3;7,6;..;..;..;..;..;..;..;0,443;..;..;..;Yes;No;Yes
+S2947.E1.L2;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,0;1329623;0,007;1399179;12003;984;1,96;33;0,425;..;..;..;Yes;Yes (2);Yes
+S2947.E1.L3;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,0;1207800;0,0063;1184857;7781;834;1,7;34;0,423;..;..;..;Yes;No;Yes
+S2947.E1.L4;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,0;1446480;0,0072;1291295;10571;1011;2,01;33;0,399;M7b1a1;0,848;[0.806,0.878];Yes;Yes (2);Yes
+S2947.E1.L5;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8;1242364;0,0065;1210244;9243;901;1,82;33;0,458;..;..;..;Yes;No;Yes
+S2947.E2.L2;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;*;3;8,7;391568;0,003;841535;1350;306;0,685;36;0,287;..;..;..;Yes;No;Yes
+S7240.E1.L1;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,3;347224;0,0112;907799;5223;1213;2,47;33;0,354;H2a2a;0,919;[0.866,0.958];Yes;No;Yes
+S7240.E1.L3;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8,3;320665;0,019;730505;2454;1121;2,1;31;0,379;M7b1;0,995;[0.895,0.999];Yes;Yes (3);Yes
+S7240.E1.L4;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;6,7;275129;0,0157;..;..;..;..;..;..;..;..;..;Yes;Yes (3);Yes
+S2947.E1.L1;I2947;VN29, 05.MB.M16;minus;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];1;24,0;2201274;0,0072;1887849;13048;1120;2,39;36;0,741;H2a2a;0,483;[0.444,0.523];Yes;No;No
+S2947.E1.L6;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8;426306;0,015;946556;3158;743;1,41;32;0,373;..;..;..;Yes;Yes (2);No
+S2947.E1.L7;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;[42, 43];3;8;351146;0,0129;805055;3395;588;1,13;32;0,437;..;..;..;Yes;Yes (2);No
+S2947.E2.L1;I2947;VN29, 05.MB.M16;partial;petrous;1900-1600 BCE;Vietnam_Neolithic;Man Bac;Vietnam;*;3;7,3;96969;0,0014;635597;665;116;0,264;37;0,223;..;..;..;No;;No
+S2948.E1.L2;I2948;VN42, 77.NN.M7.KB;partial;petrous;45 calBCE - 50 calCE (2005±15 BP, PSUAMS-2371);Vietnam_BA;Nui Nap;Vietnam;[42, 43];3;8,3;1088431;0,0035;1055282;4917;1070;2,28;35;0,331;M8a2a;0,808;[0.720,0.867];Yes;Yes (3);Yes
+S2948.E1.L4;I2948;VN42, 77.NN.M7.KB;partial;petrous;45 calBCE - 50 calCE (2005±15 BP, PSUAMS-2371);Vietnam_BA;Nui Nap;Vietnam;[42, 43];3;8,3;1486682;0,0026;1121349;5050;746;1,61;36;0,333;..;..;..;Yes;Yes (3);Yes
+S2948.E1.L5;I2948;VN42, 77.NN.M7.KB;partial;petrous;45 calBCE - 50 calCE (2005±15 BP, PSUAMS-2371);Vietnam_BA;Nui Nap;Vietnam;[42, 43];3;8,3;1162357;0,0033;964262;4613;1103;2,36;35;0,313;M8a;0,859;[0.794,0.907];Yes;Yes (3);Yes
+S2948.E2.L1;I2948;VN42, 77.NN.M7.KB;partial;petrous;45 calBCE - 50 calCE (2005±15 BP, PSUAMS-2371);Vietnam_BA;Nui Nap;Vietnam;*;3;7,3;134223;0,0022;605178;852;338;0,684;34;0,388;..;..;..;Yes;No;Yes
+S2948.E2.L2;I2948;VN42, 77.NN.M7.KB;partial;petrous;45 calBCE - 50 calCE (2005±15 BP, PSUAMS-2371);Vietnam_BA;Nui Nap;Vietnam;*;3;21,8;351296;0,0042;892102;1511;675;1,38;34;0,395;..;..;..;Yes;No;Yes
+S7247.E1.L1;I2948;VN42, 77.NN.M7.KB;partial;petrous;45 calBCE - 50 calCE (2005±15 BP, PSUAMS-2371);Vietnam_BA;Nui Nap;Vietnam;[42, 43];3;8,3;278090;0,0076;765908;4318;1710;3,53;35;0,342;M8a2;0,899;[0.825,0.951];Yes;No;Yes
+S2948.E1.L1;I2948;VN42, 77.NN.M7.KB;minus;petrous;45 calBCE - 50 calCE (2005±15 BP, PSUAMS-2371);Vietnam_BA;Nui Nap;Vietnam;[42, 43];1;25,0;2585922;0,0027;2609738;7499;2996;6,8;38;0,648;M8a2a;0,856;[0.799,0.902];Yes;No;No^
+S2948.E1.L3;I2948;VN42, 77.NN.M7.KB;partial;petrous;45 calBCE - 50 calCE (2005±15 BP, PSUAMS-2371);Vietnam_BA;Nui Nap;Vietnam;[42, 43];3;8,3;1091887;0,0041;1043547;5325;1260;2,63;35;0,367;H2;0,505;[0.413,0.594];Yes;No;No
+S4011.E1.L2;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,0;795637;0,0064;900146;1354;457;1,05;37;0,279;..;..;..;Yes;Yes (3);Yes
+S4011.E1.L3;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,0;929689;0,006;708245;1527;484;1,1;38;0,169;..;..;..;Yes;No;Yes
+S4011.E1.L4;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,0;1183765;0,0083;908660;1577;402;0,869;36;0,196;..;..;..;Yes;Yes (3);Yes
+S4011.E1.L5;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,0;981851;0,0078;840147;1447;502;1,12;37;0,25;..;..;..;Yes;Yes (3);Yes
+S4011.E1.L6;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8;433333;0,0101;1249802;1350;276;0,58;35;0,268;..;..;..;Yes;Yes (3);Yes
+S4011.E1.L7;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8;443882;0,0101;1107884;1018;211;0,439;34;0,354;..;..;..;Yes;Yes (3);Yes
+S4011.E1.L8;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8;422863;0,0101;1272721;1621;404;0,849;35;0,234;..;..;..;Yes;Yes (3);Yes
+S4011.E2.L1;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;3,67;255331;0,0175;399735;567;289;0,57;32;0,242;..;..;..;Yes;Yes (4);Yes
+S4011.E2.L2;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;3,67;301314;0,0226;618828;553;271;0,552;33;0,26;..;..;..;Yes;Yes (4);Yes
+S4011.E2.L3;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;3,67;278759;0,0237;527236;780;304;0,603;32;0,303;..;..;..;Yes;Yes (4);Yes
+S4011.E2.L4;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;3,67;283905;0,0281;360985;367;222;0,441;32;0,265;..;..;..;Yes;Yes (4);Yes
+S7237.E1.L1;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,6;337161;0,0093;946755;2284;603;1,38;37;0,256;..;..;..;Yes;No;Yes
+S7237.E1.L2;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,56;368780;0,0138;82555;120;79;0,165;35;0,223;..;..;..;Yes;Yes (5);Yes
+S7237.E1.L3;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,56;345907;0,0128;327100;433;228;0,471;34;0,143;..;..;..;Yes;Yes (5);Yes
+S7237.E1.L4;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,56;350044;0,012;772198;853;413;0,86;34;0,222;..;..;..;Yes;Yes (5);Yes
+S7237.E1.L5;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,56;421843;0,0137;802927;954;383;0,788;34;0,275;..;..;..;Yes;Yes (5);Yes
+S7237.E1.L6;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,56;431270;0,0135;1046952;1349;361;0,734;34;0,153;..;..;..;Yes;Yes (5);Yes
+S7237.E2.L2;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;0,89;278307;0,0166;547609;578;135;0,256;32;0,157;..;..;..;Yes;Yes (3);Yes
+S7237.E2.L3;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;0,89;307223;0,0149;444852;254;88;0,17;32;0,261;..;..;..;Yes;Yes (3);Yes
+S7237.E2.L4;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;0,44;334523;0,0234;604592;912;92;0,157;30;0,307;..;..;..;Yes;Yes (3);Yes
+S4011.E1.L1;I4011;OAI1/S28;minus;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];1;8,0;2729075;0,0086;2263262;1618;378;0,915;40;0,403;..;..;..;Yes;No;No^
+S7237.E2.L1;I4011;OAI1/S28;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;0,89;298692;0,0186;244187;521;199;0,443;36;0,245;..;..;..;Yes;No;No
+S4012.E2.L1;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,89;295944;0,0253;363250;933;244;0,469;32;0,372;..;..;..;Yes;Yes (4);Yes
+S4012.E2.L2;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,89;302475;0,0225;600672;1521;212;0,398;31;0,333;..;..;..;Yes;Yes (4);Yes
+S4012.E2.L4;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;6,22;270969;0,0184;414557;1383;232;0,448;32;0,204;..;..;..;Yes;Yes (4);Yes
+S7238.E1.L1;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;8,9;324152;0,0068;877887;2520;296;0,706;37;0,242;..;..;..;Yes;No;Yes
+S4012.E1.L1;I4012;OAI1/S29;minus;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];1;3,7;2940507;0,0095;2538545;4674;282;0,74;40;0,372;..;..;..;Yes;No;No
+S4012.E1.L2;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;3,7;716903;0,0101;1072906;2490;373;0,938;38;0,169;..;..;..;Yes;Yes (4);No
+S4012.E1.L3;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;3,7;989410;0,0063;1249046;3639;376;1,03;40;0,185;..;..;..;Yes;Yes (4);No
+S4012.E1.L4;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;3,7;1012708;0,006;839058;1816;268;0,734;41;0,228;..;..;..;Yes;Yes (4);No
+S4012.E1.L5;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;3,7;877519;0,007;654083;1726;388;1,03;39;0,213;..;..;..;Yes;Yes (4);No
+S4012.E1.L6;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;7,89;345717;0,0102;999988;1401;169;0,418;37;0,139;..;..;..;Yes;Yes (3);No
+S4012.E1.L8;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;7,89;365958;0,0092;838581;1366;254;0,633;37;0,258;..;..;..;Yes;Yes (3);No
+S4012.E1.L9;I4012;OAI1/S29;partial;petrous;1200-700 BCE;Myanmar_LNBA;Oakaie 1;Myanmar;[42, 43];3;7,89;367313;0,011;1142500;1574;148;0,343;36;0,24;..;..;..;Yes;Yes (3);No
+S4458.E1.L3;I4458;BCES B27;partial;petrous;1000-800 BCE;Thailand_BA;Ban Chiang;Thailand;[42, 43];3;7,89;423520;0,0074;906920;812;509;1,02;33;0,281;..;..;..;Yes;Yes (3);Yes
+S4458.E1.L4;I4458;BCES B27;partial;petrous;1000-800 BCE;Thailand_BA;Ban Chiang;Thailand;[42, 43];3;7,89;392599;0,0076;1126569;1219;521;1,04;33;0,305;..;..;..;Yes;Yes (3);Yes
+S4458.E1.L8;I4458;BCES B27;partial;petrous;1000-800 BCE;Thailand_BA;Ban Chiang;Thailand;[42, 43];3;7,89;373705;0,0073;868390;1237;635;1,27;33;0,28;..;..;..;Yes;Yes (3);Yes
+S4458.E2.L1;I4458;BCES B27;partial;petrous;1000-800 BCE;Thailand_BA;Ban Chiang;Thailand;[42, 43];3;3,78;284418;0,0286;238400;560;500;0,91;30;0,407;..;..;..;Yes;Yes (4);Yes
+S4458.E2.L2;I4458;BCES B27;partial;petrous;1000-800 BCE;Thailand_BA;Ban Chiang;Thailand;[42, 43];3;3,78;290373;0,0273;572117;1485;1072;1,94;30;0,347;..;..;..;Yes;Yes (4);Yes
+S4458.E2.L3;I4458;BCES B27;partial;petrous;1000-800 BCE;Thailand_BA;Ban Chiang;Thailand;[42, 43];3;3,78;275139;0,027;400623;913;711;1,31;31;0,372;..;..;..;Yes;Yes (4);Yes
+S4458.E2.L4;I4458;BCES B27;partial;petrous;1000-800 BCE;Thailand_BA;Ban Chiang;Thailand;[42, 43];3;1,89;289256;0,0233;613509;1750;982;1,77;30;0,314;..;..;..;Yes;Yes (4);Yes
+S4458.E1.L1;I4458;BCES B27;minus;petrous;1000-800 BCE;Thailand_BA;Ban Chiang;Thailand;[42, 43];1;7,9;1253379;0,0096;945309;882;533;1,2;37;0,619;..;..;..;Yes;No;No^
+S8970.E1.L1;I8970;BCES B16;partial;petrous;600-400 BCE;Thailand_IA;Ban Chiang;Thailand;[42, 43];3;8,33;287958;0,0152;655485;6000;2117;4,06;32;0,303;M72a;0,979;[0.944,0.992];Yes;No;Yes
+S8974.E1.L1;I8974;BCES B38;partial;petrous;1200-1000 BCE;Thailand_BA;Ban Chiang;Thailand;[42, 43];3;8,33;260721;0,0124;313575;1319;1055;2,06;33;0,293;R;0,851;[0.540,0.953];Yes;No;Yes
+S8977.E1.L1;I8977;BCES B54;partial;petrous;1200-1000 BCE;Thailand_BA;Ban Chiang;Thailand;[42, 43];3;8,33;255822;0,0099;710144;1770;1018;1,99;33;0,244;..;..;..;Yes;No;Yes
+S8978.E1.L1;I8978;BCES B67;partial;petrous;1500-1200 BCE;Thailand_LN;Ban Chiang;Thailand;[42, 43];3;8,33;361849;0,0115;265527;1040;444;0,841;32;0,357;..;..;..;Yes;No;Yes
+;;;;;;;;;;;;;;;;;;;;;;;;;
+Key:;;;;;;;;;;;;;;;;;;;;;;;;;
+[42] Dabney et al. (2013);;;;;;;;;;;;;;;;;;;;;;;;;
+[43] Roche column assembly from Korlevic et al. (2015);;;;;;;;;;;;;;;;;;;;;;;;;
+*: magnetic silica bead purification with Dabney Binding Buffer;;;;;;;;;;;;;;;;;;;;;;;;;
+1: as published in ref. [47] (Rohland & Reich, 2012);;;;;;;;;;;;;;;;;;;;;;;;;
+2: as in ref. [45] (Rohland et al., 2015) with modifications: smaller elution volume after Ligation cleanup, smaller Fill-in volume, Bst2.0, smaller PCR volume, higher primer concentration;;;;;;;;;;;;;;;;;;;;;;;;;
+3: as 2, but replacing MinElute columns with magentic silica beads;;;;;;;;;;;;;;;;;;;;;;;;;
+"^Included in ""_all"" version of sample data release";;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;

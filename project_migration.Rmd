@@ -1,6 +1,6 @@
 data <- hhhhh
 
-df <- read.csv("table_s1.csv")
+df <- read.csv2("table_s1.csv")
 head(df)
 library(tidyr)
 

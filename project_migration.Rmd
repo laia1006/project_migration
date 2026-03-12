@@ -1,6 +1,23 @@
-data <- hhhhh
+library(readxl)
+library(dplyr)
 
-df <- read.csv2("table_s1.csv")
-head(df)
-library(tidyr)
+# Carga los datos
+data <- read_excel("C:/Users/laiaz/Downloads/aat3188_table_s1.xlsx", skip = 1)
 
+# Verificar los nombres de columna
+colnames(data)
+
+# Seleccionar solo las columnas que nos interesan
+
+data_subset <- data %>%
+  select(
+    Culture,
+    Location,
+    `mtDNA haplogroup`,
+    `Equivalent mg bone powder used for library preparation`,
+    `Shotgun raw sequences`,
+    `mtDNA coverage`,
+    `mtDNA fraction damaged in last base`
+  )
+
+head(data_subset)

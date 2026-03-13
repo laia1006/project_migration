@@ -1,13 +1,87 @@
-library(readxl)
-library(dplyr)
+---
+title: "Project migration"
+# author: Carla Domingo, Mah Noor Fatima, Laia Zamora, Carla Zurita and Fatima Zahrae El
+  Yaagoubi
+date: "2026-03-12"
+output: html_document
+---
 
-# Carga los datos
-data <- read_excel("C:/Users/laiaz/Downloads/aat3188_table_s1.xlsx", skip = 1)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-# Verificar los nombres de columna
-colnames(data)
+# Ancient migrations in Southeast Asia
 
-# Seleccionar solo las columnas que nos interesan
+## Introduction
+
+This project analyzes ancient human migrations in Southeast Asia using genomic data from the study *Ancient migrations in Southeast Asia* by McColl et al. The selected data set is **Table S1** from the supplementary materials, which contains detailed library-level information for 102 DNA sequencing libraries derived from 18 individuals. The study investigates how **Neolithic and Bronze Age migrations mixed with local populations**, shaping the ancestry of present-day Southeast Asians.
+
+## Description of the data set
+
+Now we answer the following questions:
+
+#### 1 Where and why was the information collected?
+
+The information was collected from ancient human skeletal remains excavated at archaeological sites in Southeast Asia. The samples come from five sites:
+
+-   Man Bac (Vietnam)\
+-   Nui Nap (Vietnam)\
+-   Oakaie 1 (Myanmar)\
+-   Ban Chiang (Thailand)\
+-   Vat Komnou (Cambodia)
+
+These remains date from approximately 4100 to 1700 years before present, covering the **Neolithic, Bronze Age, and Iron Age periods**. The researchers extracted ancient DNA (aDNA) from the petrous bone of the skull, which is known to preserve DNA well.
+
+The purpose of collecting this information was to:
+
+-   Study ancient human genetic diversity\
+-   Identify mitochondrial DNA haplogroups\
+-   Understand population history and migrations in Southeast Asia\
+-   Evaluate the quality and preservation of ancient DNA samples\
+
+#### 2 Which is the meaning of each variable
+
+A subset of variables from the original dataset was selected in order to keep the analysis manageable while still maintaining biological relevance and meeting the requirements of the assignment (at least two discrete variables and three continuous variables).
+
+The selected variables allow us to explore relationships between archaeological context, genetic ancestry, and DNA preservation/quality, which are key aspects in ancient DNA studies.
+
+-   **Culture** → Archaeological cultural group associated with the individual (e.g., Neolithic or Bronze Age populations)\
+-   **Location** → The archaeological site where the skeletal remains were found\
+-   **mtDNA haplogroup** → The mitochondrial DNA lineage identified for the individual, reflecting maternal ancestry\
+-   **Equivalent mg bone powder used for library preparation** → Amount of powdered bone used for DNA extraction during sequencing library preparation\
+-   **Shotgun raw sequences** → Total number of DNA sequencing reads obtained from the sample using shotgun sequencing\
+-   **mtDNA coverage** → Average sequencing depth across the mitochondrial genome. Higher coverage indicates more reliable genetic data\
+-   **mtDNA fraction damaged in last base** → Proportion of DNA fragments showing damage at the last nucleotide, a typical feature of ancient DNA degradation
+
+#### 3 Do the variables have units? Which one?
+
+The variables that don’t have units are the culture, location and mtDNA haplogroup as they are categorical variables.
+
+On the other hand, our continuous variables do have units. “Equivalent mg bone powder used for library preparation” is in milligrams, “Shotgun raw sequences” is the number of sequencing reads (count), “mtDNA coverage” is the average read depth (x coverage) and lastly we have “mtDNA fraction damaged in last base” that is in proportion (0-1).
+
+#### 4 Does the data set have a long format?
+
+Yes, the dataset can be considered close to a long format, because each row represents a single observation (one sequencing library/sample) and each column corresponds to a different variable describing that observation.
+
+## Modification of the data set
+
+First we load the data set
+**Note:** The file `table_s1.csv` must be located in the same folder as the working directory (i.e., the same folder as the `.Rmd` file). Otherwise, R will not be able to locate and load the dataset.
+
+```{r}
+# Load the readr package 
+library(readr)
+
+# Read the CSV
+data <- read_csv2(
+  "table_s1.csv",      
+  skip = 1,           # skip the first line which is a description
+  locale = locale(decimal_mark = ",") # interpret comma as decimal
+)
+
+# Check the first few rows
+head(data)
+```
 
 data_subset <- data %>%
   select(

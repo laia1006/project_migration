@@ -81,7 +81,6 @@ data <- read_csv2(
 
 # Check the first few rows
 head(data)
-```
 
 data_subset <- data %>%
   select(
@@ -95,3 +94,11 @@ data_subset <- data %>%
   )
 
 head(data_subset)
+
+ggplot(data_subset, aes(Culture, fill=Location)) + 
+  geom_bar() +
+  geom_text(aes(label = ..count..), stat="count", position = position_stack(vjust = 1)) +
+  theme(axis.text.x = element_text(angle=45, hjust = 1))
+```
+
+

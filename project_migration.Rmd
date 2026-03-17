@@ -101,6 +101,10 @@ ggplot(data_without_na, aes(Culture, fill=Location)) +
   geom_bar() +
   geom_text(aes(label = ..count..), stat="count", position = position_stack(vjust = 1)) +
   theme(axis.text.x = element_text(angle=45, hjust = 1))
+df_arreglado$`Equivalent mg bone powder used for library preparation` <- as.numeric(as.character(df_arreglado$'Equivalent mg bone powder used for library preparation'))
+ggplot(df_arreglado, aes(x = `Equivalent mg bone powder used for library preparation`, fill=`Location`)) + 
+  geom_histogram() +
+  theme_minimal()
 ```
 
 

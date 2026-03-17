@@ -101,7 +101,8 @@ ggplot(data_without_na, aes(Culture, fill=Location)) +
   geom_bar() +
   geom_text(aes(label = ..count..), stat="count", position = position_stack(vjust = 1)) +
   theme(axis.text.x = element_text(angle=45, hjust = 1)) +
-  theme_minimal()
+  theme_minimal() +
+  scale_fill_brewer(palette="Set3")
 
 data_without_na$`Equivalent mg bone powder used for library preparation` <- as.numeric(as.character(data_without_na$'Equivalent mg bone powder used for library preparation'))
 

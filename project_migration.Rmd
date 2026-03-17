@@ -71,6 +71,8 @@ First we load the data set
 ```{r}
 # Load the readr package 
 library(readr)
+library(dplyr)
+library(ggplot2)
 
 # Read the CSV
 data <- read_csv2(
@@ -109,6 +111,10 @@ data_without_na$`Equivalent mg bone powder used for library preparation` <- as.n
 ggplot(data_without_na, aes(x = `Equivalent mg bone powder used for library preparation`, fill=`Location`)) + 
   geom_histogram() +
   theme_minimal()
+
+ggplot(data_without_na, aes(x = Location, y = `Equivalent mg bone powder used for library preparation`, fill = Culture)) + 
+geom_boxplot() + labs(title = "Bone powder usage by location",y = "Bone powder (mg)") + theme_minimal() +
+scale_fill_brewer(palette = "Dark2")
 ```
 
 

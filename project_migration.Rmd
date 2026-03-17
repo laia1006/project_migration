@@ -102,18 +102,18 @@ data_without_na <- na.omit(data_subset)
 ggplot(data_without_na, aes(Culture, fill=Location)) + 
   geom_bar() +
   geom_text(aes(label = ..count..), stat="count", position = position_stack(vjust = 1)) +
-  theme(axis.text.x = element_text(angle=45, hjust = 1)) +
   theme_minimal() +
+  theme(axis.text.x = element_text(angle=45, hjust = 1)) +
   scale_fill_brewer(palette="Set3")
 
 data_without_na$`Equivalent mg bone powder used for library preparation` <- as.numeric(as.character(data_without_na$'Equivalent mg bone powder used for library preparation'))
 
 ggplot(data_without_na, aes(x = `Equivalent mg bone powder used for library preparation`, fill=`Location`)) + 
-  geom_histogram() +
+  geom_histogram(bins = 30) +
   theme_minimal()
 
-ggplot(data_without_na, aes(x = Location, y = `Equivalent mg bone powder used for library preparation`, fill = Culture)) + 
-geom_boxplot() + labs(title = "Bone powder usage by location",y = "Bone powder (mg)") + theme_minimal() +
+ggplot(data_without_na, aes(x = Culture, y = `Equivalent mg bone powder used for library preparation`, fill = Location)) + 
+geom_boxplot() + labs(title = "Bone powder usage by location",y = "Bone powder (mg)") + theme_minimal() + theme(axis.text.x = element_text(angle=45, hjust = 1)) +
 scale_fill_brewer(palette = "Dark2")
 ```
 

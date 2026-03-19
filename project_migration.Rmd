@@ -1,7 +1,6 @@
 ---
 title: "Project migration"
-author: Carla Domingo, Mah Noor Fatima, Laia Zamora, Carla Zurita and Fatima Zahrae El
-  Yaagoubi
+author: Carla Domingo, Mah Noor Fatima, Laia Zamora, Carla Zurita and Fatima Zahrae El Yaagoubi
 date: "2026-03-12"
 output: html_document
 ---
@@ -130,9 +129,7 @@ ggplot(data_without_na, aes(Culture, fill=Location)) +
   )
 
 ```
-Then, Each tile in the heatmap represents a haplogroup found at a specific site.
-The color indicates the relative culture of the haplogroup in the sample.
-This visualization allows for a quick comparison of genetic composition across different sites and cultures, highlighting the variability and predominance of certain haplogroups from the Neolithic through the Bronze Age periods in Southeast Asia.
+Following the overview of how samples are distributed across different cultural groups and locations, we explored the genetic composition of these samples. To do this, we created a heatmap showing the distribution of mtDNA haplogroups across the sampled sites. Each tile represents a haplogroup at a specific location, with colors indicating the associated culture. This visualization allows us to quickly compare the presence and relative distribution of genetic lineages among different archaeological sites.
 
 ```{r}
 ggplot(data_without_na, aes(Location, `mtDNA haplogroup`, fill = Culture)) +

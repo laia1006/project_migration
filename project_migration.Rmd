@@ -122,7 +122,15 @@ ggplot(data_without_na, aes(Culture, fill=Location)) +
   geom_text(aes(label = ..count..), stat="count", position = position_stack(vjust = 1)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle=45, hjust = 1)) +
-  scale_fill_brewer(palette="Set3")
+  scale_fill_brewer(palette="Set3") +
+  labs(
+    title = "Distribution of Culture by Location",
+    subtitle = "Analysis of count per category",
+    x = "Cultural Group",
+    y = "Total Count",
+    fill = "Location Site"
+  )
+
 ```
 
 Next, we examined the distribution of a **continuous variable**, *Equivalent mg bone powder used for library preparation*, using a histogram. Before plotting, the variable was converted to numeric format to ensure proper handling in R. The histogram helps us understand how the amount of bone powder used is distributed across samples.

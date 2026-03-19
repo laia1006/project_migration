@@ -55,7 +55,7 @@ The selected variables allow us to explore relationships between archaeological 
 
 #### 3 Do the variables have units? Which one?
 
-The variables that don’t have units are the culture, location and mtDNA haplogroup as they are categorical variables. The only discrete variable that does have units is “Shotgun raw sequences” and represents the number of sequencing reads (count).
+The variables that don’t have units are the culture, location and mtDNA haplogroup as they are categorical variables. The discrete variable that does have units is “Shotgun raw sequences” and represents the number of sequencing reads (count).
 
 On the other hand, our continuous variables do have units. “Equivalent mg bone powder used for library preparation” is in milligrams, “mtDNA coverage” is the average read depth (x coverage) and lastly we have “mtDNA fraction damaged in last base” that is in proportion (0-1).
 

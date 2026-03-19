@@ -175,5 +175,5 @@ ggplot(data_without_na, aes(Location, `mtDNA haplogroup`, fill = Culture)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 Each tile in the heatmap represents a haplogroup found at a specific site.
-The color indicates the relative proportion of the haplogroup in the sample.
-This visualization allows for a quick comparison of genetic composition across different sites and cultures, highlighting the variability and predominance of certain haplogroups during the Neolithic and Bronze Age periods in Southeast Asia.
+The color indicates the relative culture of the haplogroup in the sample.
+This visualization allows for a quick comparison of genetic composition across different sites and cultures, highlighting the variability and predominance of certain haplogroups from the Neolithic through the Bronze Age periods in Southeast Asia.

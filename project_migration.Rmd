@@ -136,15 +136,12 @@ Next, we examined the distribution of a **continuous variable**, *Equivalent mg 
 data_without_na$`Equivalent mg bone powder used for library preparation` <- as.numeric(as.character(data_without_na$'Equivalent mg bone powder used for library preparation'))
 
 ggplot(data_without_na, aes(x = `Equivalent mg bone powder used for library preparation`, fill = Location)) +
-  geom_histogram(bins = 30, color = "white", alpha = 0.8) +
-  theme_minimal() +
-  labs(
-    title = "Distribution of Bone Powder Used for Library Preparation",
-    subtitle = "Categorized by Sample Location",
-    x = "Equivalent mg of Bone Powder",
-    y = "Count",
-    fill = "Location"
-  )
+  geom_histogram(bins = 30) + facet_wrap(~ Location) +  labs(
+  title = "Distribution of Bone Powder Used for Library Preparation",
+  subtitle = "Categorized by Sample Location",
+  x = "Equivalent mg of Bone Powder",
+  y = "Count",
+) + theme_minimal() + theme(legend.position = "none")
 
 
 ```

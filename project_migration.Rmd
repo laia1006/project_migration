@@ -129,9 +129,18 @@ Next, we examined the distribution of a **continuous variable**, *Equivalent mg 
 ```{r}
 data_without_na$`Equivalent mg bone powder used for library preparation` <- as.numeric(as.character(data_without_na$'Equivalent mg bone powder used for library preparation'))
 
-ggplot(data_without_na, aes(x = `Equivalent mg bone powder used for library preparation`, fill=`Location`)) + 
-  geom_histogram(bins = 30) +
-  theme_minimal()
+ggplot(data_without_na, aes(x = `Equivalent mg bone powder used for library preparation`, fill = Location)) +
+  geom_histogram(bins = 30, color = "white", alpha = 0.8) +
+  theme_minimal() +
+  labs(
+    title = "Distribution of Bone Powder Used for Library Preparation",
+    subtitle = "Categorized by Sample Location",
+    x = "Equivalent mg of Bone Powder",
+    y = "Count",
+    fill = "Location"
+  )
+
+
 ```
 Finally, we used a **boxplot** to summarize the relationship between *Culture* (categorical variable) and the amount of bone powder used (continuous variable), with colors representing different locations. This visualization provides insight into the variability, median values, and potential outliers across groups, allowing comparison between cultures and locations.
 

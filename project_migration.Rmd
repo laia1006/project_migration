@@ -155,8 +155,13 @@ ggplot(data_without_na, aes(x = `Equivalent mg bone powder used for library prep
   y = "Count",
 ) + theme_minimal() + theme(legend.position = "none")
 
-
 ```
+Interpretation of the histogram:
+
+The plot shows how much bone powder was used for each sample at different sites. Some sites, like Nui Nap and Man Bac, have a wider range of values, meaning some samples needed more material, likely due to poor DNA preservation. Other sites, like Ban Chiang and Oakaie 1, show more consistent amounts across samples.
+Overall, this suggests that bone powder use varied between sites, reflecting differences in preservation or lab processing.
+
+
 Finally, we used a **boxplot** to summarize the relationship between *Culture* (categorical variable) and the amount of bone powder used (continuous variable), with colors representing different locations. This visualization provides insight into the variability, median values, and potential outliers across groups, allowing comparison between cultures and locations.
 
 ```{r}

@@ -88,7 +88,6 @@ As mentioned previously, we selected a subset of variables from the original dat
 
 The selected variables include information about the archaeological context (Culture, Location), genetic ancestry (mtDNA haplogroup), and sequencing characteristics (amount of bone powder used, number of raw sequences, mtDNA coverage, and DNA damage).
 ```{r}
-library(dplyr)
 data_subset <- data %>%
   select(
     Culture,
@@ -115,7 +114,6 @@ To explore the dataset, we used different **ggplot2 visualizations** to examine 
 First, we created a **bar plot** to visualize the distribution of the categorical variable *Culture*, with bars filled according to *Location*. This allows us to observe how samples are distributed across different cultures and sites. Additionally, count labels were added on top of each bar to show the exact number of observations per category.
 
 ```{r}
-library(ggplot2)
 
 ggplot(data_without_na, aes(Culture, fill=Location)) + 
   geom_bar() +

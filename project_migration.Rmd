@@ -140,3 +140,14 @@ ggplot(data_without_na, aes(x = Culture, y = `Equivalent mg bone powder used for
 geom_boxplot() + labs(title = "Bone powder usage by location",y = "Bone powder (mg)") + theme_minimal() + theme(axis.text.x = element_text(angle=45, hjust = 1)) +
 scale_fill_brewer(palette = "Dark2")
 ```
+Interpretation of the boxplot:
+
+The figure shows that bone powder use varies noticeably between sites. Locations such as Nui Nap and Man Bac have higher and more spread-out values, meaning that some individuals were associated with much larger amounts of bone powder than others. In contrast, sites like Ban Chiang and Oakaie 1 show lower and more consistent values, suggesting less variation in how bone powder was used. Vat Komnou falls somewhere in between, with moderate values but one notably high example.
+
+Overall, this pattern suggests that some communities used bone powder in a more variable or intensive way, while others followed more consistent practices.
+
+Hypothesis of the boxplot:
+
+One possible explanation is that differences in bone powder use reflect variation in burial practices. At sites like Nui Nap and Man Bac, the wider range of values may indicate more complex or diverse rituals, where individuals were treated differently after death. This could be linked to social factors, such as status or role within the community.
+
+Another possibility is that these differences reflect cultural or time-period changes. For example, shifts between Neolithic and later periods may have influenced how human remains were processed and used. In contrast, the more uniform values at Ban Chiang and Oakaie 1 may suggest more standardized traditions, with less variation between individuals.

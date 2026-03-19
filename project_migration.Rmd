@@ -15,11 +15,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This project analyzes ancient human migrations in Southeast Asia using genomic data from the study *Ancient migrations in Southeast Asia* by McColl et al. The selected data set is **Table S1** from the supplementary materials, which contains detailed library-level information for 102 DNA sequencing libraries derived from 18 individuals. The study investigates how **Neolithic and Bronze Age migrations mixed with local populations**, shaping the ancestry of present-day Southeast Asians.
 
+
 ## Description of the data set
 
 Now we answer the following questions:
 
-#### 1 Where and why was the information collected?
+
+#### 1. Where and why was the information collected?
 
 The information was collected from ancient human skeletal remains excavated at archaeological sites in Southeast Asia. The samples come from five sites:
 
@@ -38,7 +40,8 @@ The purpose of collecting this information was to:
 -   Understand population history and migrations in Southeast Asia\
 -   Evaluate the quality and preservation of ancient DNA samples\
 
-#### 2 Which is the meaning of each variable
+
+#### 2. Which is the meaning of each variable
 
 A subset of variables from the original dataset were selected in order to keep the analysis manageable while still maintaining biological relevance and meeting the requirements of the assignment (at least two discrete variables and three continuous variables).
 
@@ -52,15 +55,18 @@ The selected variables allow us to explore relationships between archaeological 
 -   **mtDNA coverage** → Average sequencing depth across the mitochondrial genome. Higher coverage indicates more reliable genetic data\
 -   **mtDNA fraction damaged in last base** → Proportion of DNA fragments showing damage at the last nucleotide, a typical feature of ancient DNA degradation
 
-#### 3 Do the variables have units? Which one?
+
+#### 3. Do the variables have units? Which one?
 
 The variables that don’t have units are the culture, location and mtDNA haplogroup as they are categorical variables. The discrete variable that does have units is “Shotgun raw sequences” and represents the number of sequencing reads (count).
 
 On the other hand, our continuous variables do have units. “Equivalent mg bone powder used for library preparation” is in milligrams, “mtDNA coverage” is the average read depth (x coverage) and lastly we have “mtDNA fraction damaged in last base” that is in proportion (0-1).
 
-#### 4 Does the data set have a long format?
+
+#### 4. Does the data set have a long format?
 
 Yes, the dataset can be considered close to a long format, because each row represents a single observation (one sequencing library/sample) and each column corresponds to a different variable describing that observation.
+
 
 ## Modification of the data set
 
@@ -83,6 +89,7 @@ data <- read_csv2(
 # Check the first few rows
 head(data)
 ```
+
 As mentioned previously, we selected a subset of variables from the original dataset to focus on the most relevant biological and technical information for our analysis. This step simplifies the dataset and allows us to work with variables that are meaningful for understanding genetic variation and DNA quality.
 
 The selected variables include information about the archaeological context (Culture, Location), genetic ancestry (mtDNA haplogroup), and sequencing characteristics (amount of bone powder used, number of raw sequences, mtDNA coverage, and DNA damage).
@@ -101,12 +108,14 @@ data_subset <- data %>%
 head(data_subset)
 
 ```
+
 After selecting the relevant variables, we removed observations with missing values (NA) to ensure the dataset is clean and suitable for analysis. 
 
 ```{r}
 data_without_na <- na.omit(data_subset)
 
 ```
+
 ## Visualization of the data
 To explore the dataset, we used different **ggplot2 visualizations** to examine the distribution of variables and summarize relationships between them.
 
@@ -129,6 +138,7 @@ ggplot(data_without_na, aes(Culture, fill=Location)) +
   )
 
 ```
+
 Following the overview of how samples are distributed across different cultural groups and locations, we explored the genetic composition of these samples. To do this, we created a heatmap showing the distribution of mtDNA haplogroups across the sampled sites. Each tile represents a haplogroup at a specific location, with colors indicating the associated culture. This visualization allows us to quickly compare the presence and relative distribution of genetic lineages among different archaeological sites.
 
 ```{r}
@@ -156,6 +166,8 @@ ggplot(data_without_na, aes(x = `Equivalent mg bone powder used for library prep
 ) + theme_minimal() + theme(legend.position = "none")
 
 ```
+
+
 Interpretation of the histogram:
 
 The plot shows how much bone powder was used for each sample at different sites. Some sites, like Nui Nap and Man Bac, have a wider range of values, meaning some samples needed more material, likely due to poor DNA preservation. Other sites, like Ban Chiang and Oakaie 1, show more consistent amounts across samples.
@@ -169,12 +181,17 @@ ggplot(data_without_na, aes(x = Culture, y = `Equivalent mg bone powder used for
 geom_boxplot() + labs(title = "Bone powder usage by location",y = "Bone powder (mg)") + theme_minimal() + theme(axis.text.x = element_text(angle=45, hjust = 1)) +
 scale_fill_brewer(palette = "Dark2")
 ```
+
+
 Interpretation of the boxplot:
 
 The figure shows that bone powder use varies noticeably between sites. Locations such as Nui Nap and Man Bac have higher and more spread-out values, meaning that some individuals were associated with much larger amounts of bone powder than others. In contrast, sites like Ban Chiang and Oakaie 1 show lower and more consistent values, suggesting less variation in how bone powder was used. Vat Komnou falls somewhere in between, with moderate values but one notably high example.
+
 Overall, this pattern suggests that some sites required more bone material per individual or had greater variability in sampling, while others followed a more consistent approach.
+
 
 Hypothesis of the boxplot:
 
 The variation in bone powder is likely influenced by differences in DNA preservation and sampling strategy across sites and time periods. Tropical environments are known to cause poor DNA preservation, meaning that some samples require more bone powder and multiple sequencing libraries to obtain usable genetic data.
+
 Sites such as Man Bac (Neolithic) and Nui Nap (Bronze Age) may show higher and more variable bone powder usage because preservation conditions differed between individuals, leading researchers to process more material in some cases to recover sufficient DNA. In contrast, the more consistent values at Ban Chiang and Oakaie 1 may reflect more uniform preservation or more standardized sampling strategies.

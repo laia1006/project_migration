@@ -1,6 +1,6 @@
 ---
 title: "Project migration"
-# author: Carla Domingo, Mah Noor Fatima, Laia Zamora, Carla Zurita and Fatima Zahrae El
+author: Carla Domingo, Mah Noor Fatima, Laia Zamora, Carla Zurita and Fatima Zahrae El
   Yaagoubi
 date: "2026-03-12"
 output: html_document
@@ -83,7 +83,12 @@ data <- read_csv2(
 
 # Check the first few rows
 head(data)
+```
+As mentioned previously, we selected a subset of variables from the original dataset to focus on the most relevant biological and technical information for our analysis. This step simplifies the dataset and allows us to work with variables that are meaningful for understanding genetic variation and DNA quality.
 
+The selected variables include information about the archaeological context (Culture, Location), genetic ancestry (mtDNA haplogroup), and sequencing characteristics (amount of bone powder used, number of raw sequences, mtDNA coverage, and DNA damage).
+```{r}
+library(dplyr)
 data_subset <- data %>%
   select(
     Culture,
@@ -97,7 +102,20 @@ data_subset <- data %>%
 
 head(data_subset)
 
+```
+After selecting the relevant variables, we removed observations with missing values (NA) to ensure the dataset is clean and suitable for analysis. 
+
+```{r}
 data_without_na <- na.omit(data_subset)
+
+```
+## Visualization of the data
+To explore the dataset, we used different **ggplot2 visualizations** to examine the distribution of variables and summarize relationships between them.
+
+First, we created a **bar plot** to visualize the distribution of the categorical variable *Culture*, with bars filled according to *Location*. This allows us to observe how samples are distributed across different cultures and sites. Additionally, count labels were added on top of each bar to show the exact number of observations per category.
+
+```{r}
+library(ggplot2)
 
 ggplot(data_without_na, aes(Culture, fill=Location)) + 
   geom_bar() +
@@ -105,16 +123,20 @@ ggplot(data_without_na, aes(Culture, fill=Location)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle=45, hjust = 1)) +
   scale_fill_brewer(palette="Set3")
+```
 
+Next, we examined the distribution of a **continuous variable**, *Equivalent mg bone powder used for library preparation*, using a histogram. Before plotting, the variable was converted to numeric format to ensure proper handling in R. The histogram helps us understand how the amount of bone powder used is distributed across samples.
+```{r}
 data_without_na$`Equivalent mg bone powder used for library preparation` <- as.numeric(as.character(data_without_na$'Equivalent mg bone powder used for library preparation'))
 
 ggplot(data_without_na, aes(x = `Equivalent mg bone powder used for library preparation`, fill=`Location`)) + 
   geom_histogram(bins = 30) +
   theme_minimal()
+```
+Finally, we used a **boxplot** to summarize the relationship between *Culture* (categorical variable) and the amount of bone powder used (continuous variable), with colors representing different locations. This visualization provides insight into the variability, median values, and potential outliers across groups, allowing comparison between cultures and locations.
 
+```{r}
 ggplot(data_without_na, aes(x = Culture, y = `Equivalent mg bone powder used for library preparation`, fill = Location)) + 
 geom_boxplot() + labs(title = "Bone powder usage by location",y = "Bone powder (mg)") + theme_minimal() + theme(axis.text.x = element_text(angle=45, hjust = 1)) +
 scale_fill_brewer(palette = "Dark2")
 ```
-
-

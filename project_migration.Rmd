@@ -163,3 +163,14 @@ Hypothesis of the boxplot:
 The variation in bone powder is likely influenced by differences in DNA preservation and sampling strategy across sites and time periods. Tropical environments are known to cause poor DNA preservation, meaning that some samples require more bone powder and multiple sequencing libraries to obtain usable genetic data.
 
 Sites such as Man Bac (Neolithic) and Nui Nap (Bronze Age) may show higher and more variable bone powder usage because preservation conditions differed between individuals, leading researchers to process more material in some cases to recover sufficient DNA. In contrast, the more consistent values at Ban Chiang and Oakaie 1 may reflect more uniform preservation or more standardized sampling strategies.
+
+```{r}
+ggplot(data_without_na, aes(Location, `mtDNA haplogroup`, fill = Culture)) +
+  geom_tile(color = "white") + 
+  labs(title = "Heatmap de haplogrupos por sitio",
+       x = "Sitio arqueológico",
+       y = "Haplogrupo",
+       fill = "CULTURE") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```

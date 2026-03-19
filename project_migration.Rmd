@@ -41,7 +41,7 @@ The purpose of collecting this information was to:
 
 #### 2 Which is the meaning of each variable
 
-A subset of variables from the original dataset was selected in order to keep the analysis manageable while still maintaining biological relevance and meeting the requirements of the assignment (at least two discrete variables and three continuous variables).
+A subset of variables from the original dataset were selected in order to keep the analysis manageable while still maintaining biological relevance and meeting the requirements of the assignment (at least two discrete variables and three continuous variables).
 
 The selected variables allow us to explore relationships between archaeological context, genetic ancestry, and DNA preservation/quality, which are key aspects in ancient DNA studies.
 

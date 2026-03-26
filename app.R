@@ -1,6 +1,26 @@
 library(shiny)
 library(ggplot2)
 library(plotly)
+library(readr)
+library(dplyr)
+
+data <- read_csv2(
+  "table_s1.csv",      
+  skip = 1,           # skip the first line which is a description
+  locale = locale(decimal_mark = ",") # interpret comma as decimal
+)
+data_subset <- data %>%
+  select(
+    Culture,
+    Location,
+    `mtDNA haplogroup`,
+    `Equivalent mg bone powder used for library preparation`,
+    `Shotgun raw sequences`,
+    `mtDNA coverage`,
+    `mtDNA fraction damaged in last base`
+  )
+data_without_na <- na.omit(data_subset)
+data_without_na$`Equivalent mg bone powder used for library preparation` <- as.numeric(as.character(data_without_na$'Equivalent mg bone powder used for library preparation'))
 
 ui <- fluidPage(
   

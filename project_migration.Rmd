@@ -198,6 +198,7 @@ Sites such as Man Bac (Neolithic) and Nui Nap (Bronze Age) may show higher and m
 
 
 ```{r}
+library(plotly)
 p <- ggplot(data_without_na, aes(Location, `mtDNA haplogroup`, fill = Culture)) +
   geom_tile(color = "white") + 
   labs(title = "Heatmap of mtDNA haplogroup per location",

@@ -22,6 +22,10 @@ data_subset <- data %>%
 data_without_na <- na.omit(data_subset)
 data_without_na$`Equivalent mg bone powder used for library preparation` <- as.numeric(as.character(data_without_na$'Equivalent mg bone powder used for library preparation'))
 
+library(shiny)
+library(ggplot2)
+library(plotly)
+
 ui <- fluidPage(
   
   titlePanel("Heatmap of mtDNA haplogroups per location"),
@@ -46,7 +50,9 @@ server <- function(input, output) {
       theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
       scale_fill_viridis_d(option = "turbo")
     
-    ggplotly(p)
+    ggplotly(p)  %>% 
+    config(displayModeBar = FALSE,
+           staticPlot = TRUE)
   })
 }
 

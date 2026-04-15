@@ -22,10 +22,6 @@ data_subset <- data %>%
 data_without_na <- na.omit(data_subset)
 data_without_na$`Equivalent mg bone powder used for library preparation` <- as.numeric(as.character(data_without_na$'Equivalent mg bone powder used for library preparation'))
 
-library(shiny)
-library(ggplot2)
-library(plotly)
-
 ui <- fluidPage(
   
   titlePanel("Heatmap of mtDNA haplogroups per location"),
@@ -59,35 +55,6 @@ shinyApp(ui, server)
 
 
 # Bone Powder distribution by location
-library(shiny)
-library(readr)
-library(dplyr)
-library(ggplot2)
-
-data <- read_csv2(
-  "table_s1.csv",
-  skip = 1,
-  locale = locale(decimal_mark = ",")
-)
-
-data_subset <- data %>%
-  select(
-    Culture,
-    Location,
-    `mtDNA haplogroup`,
-    `Equivalent mg bone powder used for library preparation`,
-    `Shotgun raw sequences`,
-    `mtDNA coverage`,
-    `mtDNA fraction damaged in last base`
-  )
-
-data_without_na <- na.omit(data_subset)
-
-data_without_na$`Equivalent mg bone powder used for library preparation` <- 
-  as.numeric(as.character(
-    data_without_na$`Equivalent mg bone powder used for library preparation`
-  ))
-
 
 ui <- fluidPage(
   
@@ -155,8 +122,6 @@ shinyApp(ui = ui, server = server)
 # Last dynamic plot (comparing bone powder with culture)
 
 data_without_na$Culture <- as.character(data_without_na$Culture)
-data_without_na$`Equivalent mg bone powder used for library preparation` <- 
-  as.numeric(as.character(data_without_na$`Equivalent mg bone powder used for library preparation`))
 
 ui <- fluidPage(
   titlePanel("Bone powder usage by culture"),

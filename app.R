@@ -51,8 +51,7 @@ server <- function(input, output) {
       scale_fill_viridis_d(option = "turbo")
     
     ggplotly(p)  %>% 
-    config(displayModeBar = FALSE,
-           staticPlot = TRUE)
+    config(displayModeBar = FALSE)
   })
 }
 

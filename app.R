@@ -151,3 +151,64 @@ server <- function(input, output) {
 
 shinyApp(ui = ui, server = server)
 
+
+# Last dynamic plot (comparing bone powder with culture)
+
+data_without_na$Culture <- as.character(data_without_na$Culture)
+data_without_na$`Equivalent mg bone powder used for library preparation` <- 
+  as.numeric(as.character(data_without_na$`Equivalent mg bone powder used for library preparation`))
+
+ui <- fluidPage(
+  titlePanel("Bone powder usage by culture"),
+  
+  p("Authors: Carla Domingo, Mah Noor Fatima, Laia Zamora, Carla Zurita and Fatima Zahrae El Yaagoubi"),
+  
+  p("This plot shows the distribution of bone powder used for library preparation across different cultures. 
+    The boxes represent the interquartile range, and the points show individual samples. Colors indicate the sample location."),
+      
+  sidebarLayout( 
+    sidebarPanel( 
+      selectInput("cultureFilter", "Select Culture:",
+                  choices = unique(data_without_na$Culture),
+                  selected = unique(data_without_na$Culture),
+                  multiple = TRUE)
+  ),
+  
+  mainPanel(
+    plotlyOutput("interactivePlot")
+    )
+  )
+)
+
+server <- function(input, output, session) {
+  
+  filtered_data <- reactive({
+    req(input$cultureFilter)
+    data_without_na %>%
+      filter(Culture %in% input$cultureFilter)
+  })
+  
+  output$interactivePlot <- renderPlotly({
+    p <- ggplot(filtered_data(), aes(x = Culture, y = `Equivalent mg bone powder used for library preparation`,
+                                     text = paste(
+                                       "Culture:", Culture,
+                                       "<br>Bone powder (mg):", `Equivalent mg bone powder used for library preparation`
+                                     ), fill = Location)) +
+      geom_boxplot(outlier.shape = NA, alpha = 0.6) +
+      geom_jitter(width = 0.2, alpha = 0.5, color = "black") +
+      labs(
+        title = "Bone Powder Usage by Culture",
+        x = "Culture",
+        y = "Bone powder (mg)"
+      ) +
+      theme_minimal() +
+      theme(
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none")
+        
+    
+    ggplotly(p, tooltip = "text")
+  })
+}
+
+shinyApp(ui, server)

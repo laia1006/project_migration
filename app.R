@@ -50,7 +50,7 @@ ui <- fluidPage(
     tabPanel("Heatmap",
              br(),
              
-             p(strong("Hovering")),
+             p(strong("Why interactive visualisation using shiny?")),
              p("The heatmap contains many combinations of mtDNA haplogroups and locations, which makes it difficult to display all information clearly at once. 
                Adding hover interactivity allows the user to explore each tile in detail without overcrowding the visualization. 
                This is especially useful for identifying the exact haplogroup, location, and culture for each observation."),
@@ -65,7 +65,7 @@ ui <- fluidPage(
     tabPanel("Bone Powder Distribution",
              br(),
              
-             p(strong("Filtering and slider")),
+             p(strong("Why interactive controls with shiny")),
              p("The histogram represents the distribution of a continuous variable across different locations. 
                Interactivity through filters (location selection) and adjustable bin size allows users to focus on specific subsets of the data and control the level of detail. 
                This helps reveal patterns that may be hidden when all locations are displayed together."),
@@ -88,7 +88,7 @@ ui <- fluidPage(
     tabPanel("Cultures and Bone Powder",
              br(),
              
-             p(strong("Plotly")),
+             p(strong("Why interactive visualisation using htmlwidget?")),
              p("The boxplot summarizes distributions, but it can hide individual observations and variability within groups. 
                By making it interactive with Plotly, users can hover over points to see exact values and explore the underlying data. 
                Additionally, filtering by culture allows users to simplify comparisons and focus on specific groups, improving interpretability."),

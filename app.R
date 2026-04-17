@@ -25,7 +25,7 @@ data_without_na <- na.omit(data_subset)
 data_without_na$`Equivalent mg bone powder used for library preparation` <- as.numeric(as.character(data_without_na$'Equivalent mg bone powder used for library preparation'))
 data_without_na$Culture <- as.character(data_without_na$Culture)
 
-# --- UI ---
+# UI
 ui <- fluidPage(
   tags$head(
     tags$style(HTML("
@@ -46,7 +46,7 @@ ui <- fluidPage(
   
   tabsetPanel(
     
-    # ---------------- HEATMAP ----------------
+    #HEATMAP
     tabPanel("Heatmap",
              br(),
              
@@ -61,7 +61,7 @@ ui <- fluidPage(
              )
     ),
     
-    # ---------------- HISTOGRAM ----------------
+    #HISTOGRAM
     tabPanel("Bone Powder Distribution",
              br(),
              
@@ -84,7 +84,7 @@ ui <- fluidPage(
              )
     ),
     
-    # ---------------- BOXPLOT ----------------
+    #BOXPLOT
     tabPanel("Cultures and Bone Powder",
              br(),
              
@@ -108,7 +108,7 @@ ui <- fluidPage(
   )
 )
 
-# --- SERVER ---
+#SERVER
 server <- function(input, output, session) {
   
   # Heatmap

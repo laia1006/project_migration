@@ -211,7 +211,7 @@ p <- ggplot(data_without_na, aes(Location, `mtDNA haplogroup`, fill = Culture)) 
 
 ggplotly(p)
 ```
-
+```{r}
 library(shiny)
 library(ggplot2)
 library(plotly)
@@ -279,7 +279,7 @@ ui <- fluidPage(
     tabPanel("Bone Powder Distribution",
              br(),
              
-             p(strong("Why interactive controls with shiny")),
+             p(strong("Why interactive controls with shiny?")),
              p("The histogram represents the distribution of a continuous variable across different locations. 
                Interactivity through filters (location selection) and adjustable bin size allows users to focus on specific subsets of the data and control the level of detail. 
                This helps reveal patterns that may be hidden when all locations are displayed together."),
@@ -385,3 +385,4 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui = ui, server = server)
+```

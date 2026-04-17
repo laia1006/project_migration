@@ -62,7 +62,7 @@ ui <- fluidPage(
     ),
     
     # ---------------- HISTOGRAM ----------------
-    tabPanel("Distribution Bone Powder",
+    tabPanel("Bone Powder Distribution",
              br(),
              
              p(strong("Filtering and slider")),
